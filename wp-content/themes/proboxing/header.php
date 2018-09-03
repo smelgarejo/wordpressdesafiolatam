@@ -12,7 +12,7 @@ $theme_url = get_template_directory_uri();
 
 <head>
     <meta charset="<?php bloginfo('charset') ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     
