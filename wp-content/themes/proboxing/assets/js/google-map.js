@@ -2,13 +2,13 @@
 
 jQuery(document).ready(function($){
   //set your google maps parameters
-  var latitude = 41.850,
-      longitude = -73.961,
+  var latitude = -33.4409294,
+      longitude = -33.4409294,
       map_zoom = 6;
 
   //google map custom marker icon - .png fallback for IE11
   var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
-  var marker_url = ( is_internetExplorer11 ) ? 'img/widgets/gmap/cd-icon-location.png' : 'img/widgets/gmap/cd-icon-location.svg';
+  var marker_url = ( is_internetExplorer11 ) ? 'assets/images/widgets/gmap/cd-icon-location.png' : 'assets/images/widgets/gmap/cd-icon-location.svg';
     
   //define the basic color of your map, plus a value for saturation and brightness
   var main_color = '#f7f8fa',
@@ -205,9 +205,9 @@ jQuery(document).ready(function($){
   var contentString = '<div id="content">'+
     '<div id="siteNotice">'+
     '</div>'+
-    '<h2 id="firstHeading" class="firstHeading">Brooklyn</h2>'+
+    '<h2 id="firstHeading" class="firstHeading">Providencia, Santiago</h2>'+
     '<div id="bodyContent">'+
-    '<p>277 Bedford Avenue, <br> Brooklyn, NY 11211, <br> New York, USA</p>'+
+    '<p>277 Bedford Avenue, <br> Av. Pedro de Valdivia 1985, <br> Providencia, Santiago, Región Metropolitana</p>'+
     '</div>'+
     '</div>';
 

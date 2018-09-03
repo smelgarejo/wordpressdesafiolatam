@@ -76,7 +76,7 @@ wp_footer() ?>
 <script type="text/javascript" src="<?php echo $theme_url ?>/assets/js/counterup.min.js"></script>
 <script type="text/javascript" src="<?php echo $theme_url ?>/assets/js/jquery.cubeportfolio.min.js"></script>
 <script type="text/javascript" src="<?php echo $theme_url ?>/assets/js/jquery.parallax.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHe4jrSRpYdcxQf4SDGxTDBWahDit-j5A"></script>
 <script type="text/javascript" src="<?php echo $theme_url ?>/assets/js/jquery.wow.min.js"></script>
 
 <!-- General Components and Settings -->
