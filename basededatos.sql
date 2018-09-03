@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 03, 2018 at 07:43 PM
+-- Generation Time: Sep 03, 2018 at 08:34 PM
 -- Server version: 5.6.38
 -- PHP Version: 7.2.1
 
@@ -100,8 +100,8 @@ CREATE TABLE `wp_options` (
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
 (1, 'siteurl', 'http://localhost:8888/wordpressdesafiolatam', 'yes'),
 (2, 'home', 'http://localhost:8888/wordpressdesafiolatam', 'yes'),
-(3, 'blogname', 'Proboxing.cl - The Sweet Science', 'yes'),
-(4, 'blogdescription', 'Otro sitio de WordPress', 'yes'),
+(3, 'blogname', 'Proboxing.cl', 'yes'),
+(4, 'blogdescription', 'The Sweet Science', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
 (6, 'admin_email', 'smelgarejo@ecomsur.com', 'yes'),
 (7, 'start_of_week', '1', 'yes'),
@@ -281,32 +281,8 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (23, 14, '_edit_lock', '1535962068:1'),
 (35, 14, '_thumbnail_id', '12'),
 (38, 9, '_thumbnail_id', '12'),
-(45, 18, '_menu_item_type', 'post_type'),
-(46, 18, '_menu_item_menu_item_parent', '0'),
-(47, 18, '_menu_item_object_id', '1'),
-(48, 18, '_menu_item_object', 'post'),
-(49, 18, '_menu_item_target', ''),
-(50, 18, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
-(51, 18, '_menu_item_xfn', ''),
-(52, 18, '_menu_item_url', ''),
 (70, 19, '_wp_trash_meta_status', 'publish'),
 (71, 19, '_wp_trash_meta_time', '1535981163'),
-(72, 22, '_menu_item_type', 'post_type'),
-(73, 22, '_menu_item_menu_item_parent', '0'),
-(74, 22, '_menu_item_object_id', '2'),
-(75, 22, '_menu_item_object', 'page'),
-(76, 22, '_menu_item_target', ''),
-(77, 22, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
-(78, 22, '_menu_item_xfn', ''),
-(79, 22, '_menu_item_url', ''),
-(81, 23, '_menu_item_type', 'post_type'),
-(82, 23, '_menu_item_menu_item_parent', '0'),
-(83, 23, '_menu_item_object_id', '9'),
-(84, 23, '_menu_item_object', 'post'),
-(85, 23, '_menu_item_target', ''),
-(86, 23, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
-(87, 23, '_menu_item_xfn', ''),
-(88, 23, '_menu_item_url', ''),
 (90, 24, '_form', '<label> Your Name (required)\n    [text* your-name] </label>\n\n<label> Your Email (required)\n    [email* your-email] </label>\n\n<label> Subject\n    [text your-subject] </label>\n\n<label> Your Message\n    [textarea your-message] </label>\n\n[submit \"Send\"]'),
 (91, 24, '_mail', 'a:8:{s:7:\"subject\";s:49:\"Proboxing.cl - The Sweet Science \"[your-subject]\"\";s:6:\"sender\";s:36:\"[your-name] <smelgarejo@ecomsur.com>\";s:4:\"body\";s:214:\"From: [your-name] <[your-email]>\nSubject: [your-subject]\n\nMessage Body:\n[your-message]\n\n-- \nThis e-mail was sent from a contact form on Proboxing.cl - The Sweet Science (http://localhost:8888/wordpressdesafiolatam)\";s:9:\"recipient\";s:22:\"smelgarejo@ecomsur.com\";s:18:\"additional_headers\";s:22:\"Reply-To: [your-email]\";s:11:\"attachments\";s:0:\"\";s:8:\"use_html\";i:0;s:13:\"exclude_blank\";i:0;}'),
 (92, 24, '_mail_2', 'a:9:{s:6:\"active\";b:0;s:7:\"subject\";s:49:\"Proboxing.cl - The Sweet Science \"[your-subject]\"\";s:6:\"sender\";s:57:\"Proboxing.cl - The Sweet Science <smelgarejo@ecomsur.com>\";s:4:\"body\";s:156:\"Message Body:\n[your-message]\n\n-- \nThis e-mail was sent from a contact form on Proboxing.cl - The Sweet Science (http://localhost:8888/wordpressdesafiolatam)\";s:9:\"recipient\";s:12:\"[your-email]\";s:18:\"additional_headers\";s:32:\"Reply-To: smelgarejo@ecomsur.com\";s:11:\"attachments\";s:0:\"\";s:8:\"use_html\";i:0;s:13:\"exclude_blank\";i:0;}'),
@@ -315,7 +291,34 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (95, 24, '_locale', 'es_CL'),
 (96, 2, '_edit_lock', '1536003485:1'),
 (97, 28, '_edit_last', '1'),
-(98, 28, '_edit_lock', '1536003666:1');
+(98, 28, '_edit_lock', '1536004337:1'),
+(99, 32, '_wp_trash_meta_status', 'publish'),
+(100, 32, '_wp_trash_meta_time', '1536005451'),
+(101, 33, '_edit_lock', '1536005496:1'),
+(102, 33, '_wp_trash_meta_status', 'publish'),
+(103, 33, '_wp_trash_meta_time', '1536005524'),
+(104, 34, '_wp_trash_meta_status', 'publish'),
+(105, 34, '_wp_trash_meta_time', '1536005533'),
+(106, 35, '_wp_trash_meta_status', 'publish'),
+(107, 35, '_wp_trash_meta_time', '1536005603'),
+(117, 37, '_edit_last', '1'),
+(118, 37, '_edit_lock', '1536006735:1'),
+(119, 39, '_menu_item_type', 'post_type'),
+(120, 39, '_menu_item_menu_item_parent', '0'),
+(121, 39, '_menu_item_object_id', '37'),
+(122, 39, '_menu_item_object', 'page'),
+(123, 39, '_menu_item_target', ''),
+(124, 39, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(125, 39, '_menu_item_xfn', ''),
+(126, 39, '_menu_item_url', ''),
+(128, 40, '_menu_item_type', 'post_type'),
+(129, 40, '_menu_item_menu_item_parent', '0'),
+(130, 40, '_menu_item_object_id', '28'),
+(131, 40, '_menu_item_object', 'page'),
+(132, 40, '_menu_item_target', ''),
+(133, 40, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(134, 40, '_menu_item_xfn', ''),
+(135, 40, '_menu_item_url', '');
 
 -- --------------------------------------------------------
 
@@ -370,17 +373,23 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (15, 1, '2018-09-03 04:17:20', '2018-09-03 07:17:20', '', 'slide 2', '', 'inherit', 'closed', 'closed', '', '14-revision-v1', '', '', '2018-09-03 04:17:20', '2018-09-03 07:17:20', '', 14, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/14-revision-v1/', 0, 'revision', '', 0),
 (16, 1, '2018-09-03 05:05:11', '2018-09-03 08:05:11', 'prueba', 'The Sweet Science', '', 'inherit', 'closed', 'closed', '', '9-revision-v1', '', '', '2018-09-03 05:05:11', '2018-09-03 08:05:11', '', 9, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/9-revision-v1/', 0, 'revision', '', 0),
 (17, 1, '2018-09-03 05:05:23', '2018-09-03 08:05:23', '', 'The Sweet Science', '', 'inherit', 'closed', 'closed', '', '14-revision-v1', '', '', '2018-09-03 05:05:23', '2018-09-03 08:05:23', '', 14, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/14-revision-v1/', 0, 'revision', '', 0),
-(18, 1, '2018-09-03 10:24:01', '2018-09-03 13:24:01', ' ', '', '', 'publish', 'closed', 'closed', '', '18', '', '', '2018-09-03 15:56:14', '2018-09-03 18:56:14', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?p=18', 1, 'nav_menu_item', '', 0),
 (19, 1, '2018-09-03 10:26:02', '2018-09-03 13:26:02', '{\n    \"nav_menu_item[-760943138178480100]\": {\n        \"value\": {\n            \"object_id\": 0,\n            \"object\": \"servicios\",\n            \"menu_item_parent\": 0,\n            \"position\": 2,\n            \"type\": \"post_type_archive\",\n            \"title\": \"Item Servicios\",\n            \"url\": \"http://localhost:8888/wordpressdesafiolatam/servicios/\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"status\": \"publish\",\n            \"original_title\": \"Item Servicios\",\n            \"nav_menu_term_id\": 4,\n            \"_invalid\": false,\n            \"type_label\": \"Archivo de Tipos de Entrada\"\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-09-03 13:26:02\"\n    },\n    \"nav_menu_item[-1029908296172668900]\": {\n        \"value\": {\n            \"object_id\": 6,\n            \"object\": \"servicios\",\n            \"menu_item_parent\": 0,\n            \"position\": 3,\n            \"type\": \"post_type\",\n            \"title\": \"prueba titulo\",\n            \"url\": \"http://localhost:8888/wordpressdesafiolatam/servicios/prueba-titulo/\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"\",\n            \"xfn\": \"\",\n            \"status\": \"publish\",\n            \"original_title\": \"prueba titulo\",\n            \"nav_menu_term_id\": 4,\n            \"_invalid\": false,\n            \"type_label\": \"Servicio\"\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-09-03 13:26:02\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '7db31c7c-7129-4c38-a8ed-22d5457d8fe5', '', '', '2018-09-03 10:26:02', '2018-09-03 13:26:02', '', 0, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/7db31c7c-7129-4c38-a8ed-22d5457d8fe5/', 0, 'customize_changeset', '', 0),
-(22, 1, '2018-09-03 15:24:48', '2018-09-03 18:24:48', ' ', '', '', 'publish', 'closed', 'closed', '', '22', '', '', '2018-09-03 15:56:14', '2018-09-03 18:56:14', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?p=22', 2, 'nav_menu_item', '', 0),
-(23, 1, '2018-09-03 15:56:14', '2018-09-03 18:56:14', ' ', '', '', 'publish', 'closed', 'closed', '', '23', '', '', '2018-09-03 15:56:14', '2018-09-03 18:56:14', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?p=23', 3, 'nav_menu_item', '', 0),
 (24, 1, '2018-09-03 16:34:14', '2018-09-03 19:34:14', '<label> Your Name (required)\n    [text* your-name] </label>\n\n<label> Your Email (required)\n    [email* your-email] </label>\n\n<label> Subject\n    [text your-subject] </label>\n\n<label> Your Message\n    [textarea your-message] </label>\n\n[submit \"Send\"]\nProboxing.cl - The Sweet Science \"[your-subject]\"\n[your-name] <smelgarejo@ecomsur.com>\nFrom: [your-name] <[your-email]>\nSubject: [your-subject]\n\nMessage Body:\n[your-message]\n\n-- \nThis e-mail was sent from a contact form on Proboxing.cl - The Sweet Science (http://localhost:8888/wordpressdesafiolatam)\nsmelgarejo@ecomsur.com\nReply-To: [your-email]\n\n0\n0\n\nProboxing.cl - The Sweet Science \"[your-subject]\"\nProboxing.cl - The Sweet Science <smelgarejo@ecomsur.com>\nMessage Body:\n[your-message]\n\n-- \nThis e-mail was sent from a contact form on Proboxing.cl - The Sweet Science (http://localhost:8888/wordpressdesafiolatam)\n[your-email]\nReply-To: smelgarejo@ecomsur.com\n\n0\n0\nThank you for your message. It has been sent.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nThe field is required.\nThe field is too long.\nThe field is too short.', 'Contact form 1', '', 'publish', 'closed', 'closed', '', 'contact-form-1', '', '', '2018-09-03 16:34:14', '2018-09-03 19:34:14', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?post_type=wpcf7_contact_form&p=24', 0, 'wpcf7_contact_form', '', 0),
 (25, 1, '2018-09-03 16:36:57', '0000-00-00 00:00:00', '', 'Borrador automático', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2018-09-03 16:36:57', '0000-00-00 00:00:00', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?page_id=25', 0, 'page', '', 0),
 (26, 1, '2018-09-03 16:37:12', '0000-00-00 00:00:00', '', 'Borrador automático', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2018-09-03 16:37:12', '0000-00-00 00:00:00', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?page_id=26', 0, 'page', '', 0),
 (27, 1, '2018-09-03 16:39:54', '0000-00-00 00:00:00', '', 'Borrador automático', '', 'auto-draft', 'open', 'open', '', '', '', '', '2018-09-03 16:39:54', '0000-00-00 00:00:00', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?p=27', 0, 'post', '', 0),
-(28, 1, '2018-09-03 16:40:47', '2018-09-03 19:40:47', '[contact-form-7 id=\"24\" title=\"Contact form 1\"]', 'Contacto', '', 'publish', 'closed', 'closed', '', 'contacto', '', '', '2018-09-03 16:41:05', '2018-09-03 19:41:05', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?page_id=28', 0, 'page', '', 0),
+(28, 1, '2018-09-03 16:40:47', '2018-09-03 19:40:47', '', 'Contacto', '', 'publish', 'closed', 'closed', '', 'contacto', '', '', '2018-09-03 16:53:03', '2018-09-03 19:53:03', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?page_id=28', 0, 'page', '', 0),
 (29, 1, '2018-09-03 16:40:47', '2018-09-03 19:40:47', '', 'Contacto', '', 'inherit', 'closed', 'closed', '', '28-revision-v1', '', '', '2018-09-03 16:40:47', '2018-09-03 19:40:47', '', 28, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/28-revision-v1/', 0, 'revision', '', 0),
-(30, 1, '2018-09-03 16:41:05', '2018-09-03 19:41:05', '[contact-form-7 id=\"24\" title=\"Contact form 1\"]', 'Contacto', '', 'inherit', 'closed', 'closed', '', '28-revision-v1', '', '', '2018-09-03 16:41:05', '2018-09-03 19:41:05', '', 28, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/28-revision-v1/', 0, 'revision', '', 0);
+(30, 1, '2018-09-03 16:41:05', '2018-09-03 19:41:05', '[contact-form-7 id=\"24\" title=\"Contact form 1\"]', 'Contacto', '', 'inherit', 'closed', 'closed', '', '28-revision-v1', '', '', '2018-09-03 16:41:05', '2018-09-03 19:41:05', '', 28, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/28-revision-v1/', 0, 'revision', '', 0),
+(31, 1, '2018-09-03 16:53:03', '2018-09-03 19:53:03', '', 'Contacto', '', 'inherit', 'closed', 'closed', '', '28-revision-v1', '', '', '2018-09-03 16:53:03', '2018-09-03 19:53:03', '', 28, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/28-revision-v1/', 0, 'revision', '', 0),
+(32, 1, '2018-09-03 17:10:51', '2018-09-03 20:10:51', '{\n    \"nav_menu_item[23]\": {\n        \"value\": false,\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-09-03 20:10:51\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', 'c2011075-0468-45f7-9efc-0407912f4816', '', '', '2018-09-03 17:10:51', '2018-09-03 20:10:51', '', 0, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/c2011075-0468-45f7-9efc-0407912f4816/', 0, 'customize_changeset', '', 0),
+(33, 1, '2018-09-03 17:12:04', '2018-09-03 20:12:04', '{\n    \"nav_menu_item[18]\": {\n        \"value\": {\n            \"menu_item_parent\": 0,\n            \"object_id\": 1,\n            \"object\": \"post\",\n            \"type\": \"post_type\",\n            \"type_label\": \"Entrada\",\n            \"url\": \"http://localhost:8888/wordpressdesafiolatam/2018/09/02/hola-mundo/\",\n            \"title\": \"\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"s-header__nav-menu-link s-header__nav-menu-link-divider\",\n            \"xfn\": \"\",\n            \"nav_menu_term_id\": 4,\n            \"position\": 1,\n            \"status\": \"publish\",\n            \"original_title\": \"\\u00a1Hola mundo!\",\n            \"_invalid\": false\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-09-03 20:12:04\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '1be2af8e-33a6-442c-946b-5d594eda249e', '', '', '2018-09-03 17:12:04', '2018-09-03 20:12:04', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?p=33', 0, 'customize_changeset', '', 0),
+(34, 1, '2018-09-03 17:12:13', '2018-09-03 20:12:13', '{\n    \"nav_menu_item[22]\": {\n        \"value\": {\n            \"menu_item_parent\": 0,\n            \"object_id\": 2,\n            \"object\": \"page\",\n            \"type\": \"post_type\",\n            \"type_label\": \"P\\u00e1gina\",\n            \"url\": \"http://localhost:8888/wordpressdesafiolatam/pagina-de-ejemplo/\",\n            \"title\": \"\",\n            \"target\": \"\",\n            \"attr_title\": \"\",\n            \"description\": \"\",\n            \"classes\": \"s-header__nav-menu-link s-header__nav-menu-link-divider\",\n            \"xfn\": \"\",\n            \"nav_menu_term_id\": 4,\n            \"position\": 2,\n            \"status\": \"publish\",\n            \"original_title\": \"P\\u00e1gina de ejemplo\",\n            \"_invalid\": false\n        },\n        \"type\": \"nav_menu_item\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-09-03 20:12:13\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '2da24486-c32b-4b66-a881-de7b633dcc23', '', '', '2018-09-03 17:12:13', '2018-09-03 20:12:13', '', 0, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/2da24486-c32b-4b66-a881-de7b633dcc23/', 0, 'customize_changeset', '', 0),
+(35, 1, '2018-09-03 17:13:23', '2018-09-03 20:13:23', '{\n    \"blogname\": {\n        \"value\": \"Proboxing.cl\",\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-09-03 20:13:23\"\n    },\n    \"blogdescription\": {\n        \"value\": \"The Sweet Science\",\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-09-03 20:13:23\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', 'b931431d-4204-4d01-be84-5fd6f6dc3107', '', '', '2018-09-03 17:13:23', '2018-09-03 20:13:23', '', 0, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/b931431d-4204-4d01-be84-5fd6f6dc3107/', 0, 'customize_changeset', '', 0),
+(37, 1, '2018-09-03 17:34:03', '2018-09-03 20:34:03', 'Proboxing nace por una sencilla razón, la falta de equipamiento de calidad para los deportes de contacto, hace 10 años atrás no existían empresas dedicadas a cubrir las necesidades de competidores y practicantes de estas disciplinas, además solo existía la posibilidad de importarlos, lo cual encarecía de gran forma el precio de un par de guantes, canilleras, etc. \r\nProboxing lo simplifico y tenemos equipos de alta calidad a precios mas que razonables, entendiendo la realidad de la gran mayoría de las personas que realiza la practica en deportes de contacto.\r\nNuestro principal objetivo es el cuidado del deportista, evitar lesiones y que el equipamiento cumpla con todas sus necesidades.\r\n', 'Nosotros', '', 'publish', 'closed', 'closed', '', 'nosotros', '', '', '2018-09-03 17:34:03', '2018-09-03 20:34:03', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?page_id=37', 0, 'page', '', 0),
+(38, 1, '2018-09-03 17:34:03', '2018-09-03 20:34:03', 'Proboxing nace por una sencilla razón, la falta de equipamiento de calidad para los deportes de contacto, hace 10 años atrás no existían empresas dedicadas a cubrir las necesidades de competidores y practicantes de estas disciplinas, además solo existía la posibilidad de importarlos, lo cual encarecía de gran forma el precio de un par de guantes, canilleras, etc. \r\nProboxing lo simplifico y tenemos equipos de alta calidad a precios mas que razonables, entendiendo la realidad de la gran mayoría de las personas que realiza la practica en deportes de contacto.\r\nNuestro principal objetivo es el cuidado del deportista, evitar lesiones y que el equipamiento cumpla con todas sus necesidades.\r\n', 'Nosotros', '', 'inherit', 'closed', 'closed', '', '37-revision-v1', '', '', '2018-09-03 17:34:03', '2018-09-03 20:34:03', '', 37, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/37-revision-v1/', 0, 'revision', '', 0),
+(39, 1, '2018-09-03 17:34:30', '2018-09-03 20:34:30', ' ', '', '', 'publish', 'closed', 'closed', '', '39', '', '', '2018-09-03 17:34:30', '2018-09-03 20:34:30', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?p=39', 1, 'nav_menu_item', '', 0),
+(40, 1, '2018-09-03 17:34:30', '2018-09-03 20:34:30', ' ', '', '', 'publish', 'closed', 'closed', '', '40', '', '', '2018-09-03 17:34:30', '2018-09-03 20:34:30', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?p=40', 2, 'nav_menu_item', '', 0);
 
 -- --------------------------------------------------------
 
@@ -439,9 +448,8 @@ INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 (6, 2, 0),
 (9, 3, 0),
 (14, 3, 0),
-(18, 4, 0),
-(22, 4, 0),
-(23, 4, 0);
+(39, 4, 0),
+(40, 4, 0);
 
 -- --------------------------------------------------------
 
@@ -466,7 +474,7 @@ INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `desc
 (1, 1, 'category', '', 0, 1),
 (2, 2, 'category', '', 0, 1),
 (3, 3, 'category', '', 0, 2),
-(4, 4, 'nav_menu', '', 0, 3);
+(4, 4, 'nav_menu', '', 0, 2);
 
 -- --------------------------------------------------------
 
@@ -503,15 +511,16 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (15, 1, 'show_welcome_panel', '1'),
 (16, 1, 'session_tokens', 'a:1:{s:64:\"47a13b14f0ad2bc80d3a855a7fa9e99aa545c90d800eb8f66c05e312f488f14e\";a:4:{s:10:\"expiration\";i:1536093585;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:121:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36\";s:5:\"login\";i:1535920785;}}'),
 (17, 1, 'wp_dashboard_quick_press_last_post_id', '4'),
-(18, 1, 'managenav-menuscolumnshidden', 'a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}'),
-(19, 1, 'metaboxhidden_nav-menus', 'a:2:{i:0;s:23:\"add-post-type-servicios\";i:1;s:12:\"add-post_tag\";}'),
+(18, 1, 'managenav-menuscolumnshidden', 'a:0:{}'),
+(19, 1, 'metaboxhidden_nav-menus', 'a:0:{}'),
 (20, 1, 'wp_user-settings', 'libraryContent=browse&editor=html'),
 (21, 1, 'wp_user-settings-time', '1535958828'),
 (22, 1, 'closedpostboxes_page', 'a:0:{}'),
 (23, 1, 'metaboxhidden_page', 'a:0:{}'),
 (24, 1, 'nav_menu_recently_edited', '4'),
 (25, 1, 'closedpostboxes_post', 'a:0:{}'),
-(26, 1, 'metaboxhidden_post', 'a:4:{i:0;s:13:\"trackbacksdiv\";i:1;s:16:\"commentstatusdiv\";i:2;s:7:\"slugdiv\";i:3;s:9:\"authordiv\";}');
+(26, 1, 'metaboxhidden_post', 'a:4:{i:0;s:13:\"trackbacksdiv\";i:1;s:16:\"commentstatusdiv\";i:2;s:7:\"slugdiv\";i:3;s:9:\"authordiv\";}'),
+(27, 1, 'closedpostboxes_nav-menus', 'a:0:{}');
 
 -- --------------------------------------------------------
 
@@ -674,13 +683,13 @@ ALTER TABLE `wp_options`
 -- AUTO_INCREMENT for table `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=99;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=137;
 
 --
 -- AUTO_INCREMENT for table `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 
 --
 -- AUTO_INCREMENT for table `wp_termmeta`
@@ -704,7 +713,7 @@ ALTER TABLE `wp_term_taxonomy`
 -- AUTO_INCREMENT for table `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
-  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT for table `wp_users`
