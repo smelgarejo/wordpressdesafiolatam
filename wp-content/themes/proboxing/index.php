@@ -15,7 +15,7 @@ get_header() ?>
                 <div class="g-margin-b-30--xs">
                     <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white"><?php the_title(); ?></h1>
                 </div>
-                <a class="js__popup__youtube" href="https://www.youtube.com/watch?v=lcFYdgZKZxY" title="Intro Video">
+                <a class="js__popup__youtube" href="https://www.youtube.com/watch?v=cZZ0Z1cndk8" title="Intro Video">
                             <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
                         </a>
             </div>
