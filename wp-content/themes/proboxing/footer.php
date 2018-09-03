@@ -20,9 +20,9 @@ wp_footer() ?>
                 </div>
                 <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
                     <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Twitter</a></li>
-                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Facebook</a></li>
-                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Instagram</a></li>
+ <!--                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Twitter</a></li> -->
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://web.facebook.com/proboxing.cl/">Facebook</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://www.instagram.com/proboxing.cl/">Instagram</a></li>
                         <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">YouTube</a></li>
                     </ul>
                 </div>
@@ -34,8 +34,8 @@ wp_footer() ?>
                     </ul>
                 </div>
                 <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
-                    <h3 class="g-font-size-18--xs g-color--white">Megakit</h3>
-                    <p class="g-color--white-opacity">We are a creative studio focusing on culture, luxury, editorial &amp; art. Somewhere between sophistication and simplicity.</p>
+                    <h3 class="g-font-size-18--xs g-color--white">Proboxing</h3>
+                    <p class="g-color--white-opacity">The Sweet Science.</p>
                 </div>
             </div>
         </div>
@@ -47,12 +47,12 @@ wp_footer() ?>
         <div class="row">
             <div class="col-xs-6">
                 <a href="index.html">
-                            <img class="g-width-100--xs g-height-auto--xs" src="img/logo.png" alt="Megakit Logo">
+                            <img class="g-width-100--xs g-height-auto--xs" src="<?php echo $theme_url ?>/assets/images/logo.png" alt="Proboxing Logo">
                         </a>
             </div>
             <div class="col-xs-6 g-text-right--xs">
-                <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">Megakit - Theme Powered by:
-                    <a href="http://www.keenthemes.com/">KeenThemes.com </a>. Available in themefisher.com a free bootstrap template marketplace
+                <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">Proboxing:
+                    <a href="http://www.webdeveloper.cl">Web Developer</a>.
                 </p>
             </div>
         </div>

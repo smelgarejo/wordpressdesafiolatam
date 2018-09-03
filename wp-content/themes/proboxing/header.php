@@ -108,28 +108,28 @@ $theme_url = get_template_directory_uri();
             <!-- End Nav -->
 
             <!-- Action -->
-            <ul class="list-inline s-header__action s-header__action--lb">
+<!--             <ul class="list-inline s-header__action s-header__action--lb">
                 <li class="s-header__action-item"><a class="s-header__action-link -is-active" href="#">En</a></li>
                 <li class="s-header__action-item"><a class="s-header__action-link" href="#">Fr</a></li>
-            </ul>
+            </ul> -->
             <!-- End Action -->
 
             <!-- Action -->
             <ul class="list-inline s-header__action s-header__action--rb">
                 <li class="s-header__action-item">
-                    <a class="s-header__action-link" href="#">
+                    <a class="s-header__action-link" href="https://web.facebook.com/proboxing.cl/">
                             <i class="g-padding-r-5--xs ti-facebook"></i>
                             <span class="g-display-none--xs g-display-inline-block--sm">Facebook</span>
                         </a>
                 </li>
-                <li class="s-header__action-item">
+<!--                 <li class="s-header__action-item">ss
                     <a class="s-header__action-link" href="#">
                             <i class="g-padding-r-5--xs ti-twitter"></i>
                             <span class="g-display-none--xs g-display-inline-block--sm">Twitter</span>
                         </a>
-                </li>
+                </li> -->
                 <li class="s-header__action-item">
-                    <a class="s-header__action-link" href="#">
+                    <a class="s-header__action-link" href="https://www.instagram.com/proboxing.cl/">
                             <i class="g-padding-r-5--xs ti-instagram"></i>
                             <span class="g-display-none--xs g-display-inline-block--sm">Instagram</span>
                         </a>
