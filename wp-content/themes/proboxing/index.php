@@ -8,28 +8,21 @@ get_header() ?>
 <div class="s-swiper js__swiper-one-item">
     <!-- Swiper Wrapper -->
     <div class="swiper-wrapper">
+        <?php query_posts('posts_per_page=1&category_name=slide'); ?>
+        <?php if(have_posts()): while(have_posts()): the_post(); ?>
         <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('<?php echo $theme_url ?>/assets/images/1920x1080/02.jpg');">
             <div class="container g-text-center--xs g-ver-center--xs">
                 <div class="g-margin-b-30--xs">
-                    <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">A Mobile Experience<br>That Inspires Travel</h1>
+                    <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white"><?php the_title(); ?></h1>
                 </div>
                 <a class="js__popup__youtube" href="https://www.youtube.com/watch?v=lcFYdgZKZxY" title="Intro Video">
                             <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
                         </a>
             </div>
+
         </div>
-        <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('<?php echo $theme_url ?>/assets/images/1920x1080/01.jpg');">
-            <div class="container g-text-center--xs g-ver-center--xs">
-                <div class="g-margin-b-30--xs">
-                    <div class="g-margin-b-30--xs">
-                        <h2 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">We Craft Experience<br>That Help Brands<br>Stand Out</h2>
-                    </div>
-                    <a class="js__popup__youtube" href="https://www.youtube.com/watch?v=lcFYdgZKZxY" title="Intro Video">
-                                <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
-                            </a>
-                </div>
-            </div>
-        </div>
+        <?php endwhile; endif; ?>
+
     </div>
     <!-- End Swiper Wrapper -->
 
@@ -40,7 +33,7 @@ get_header() ?>
 
     <a href="#js__scroll-to-section" class="s-scroll-to-section-v1--bc g-margin-b-15--xs">
                 <span class="g-font-size-18--xs g-color--white ti-angle-double-down"></span>
-                <p class="text-uppercase g-color--white g-letter-spacing--3 g-margin-b-0--xs">Learn More</p>
+                <p class="text-uppercase g-color--white g-letter-spacing--3 g-margin-b-0--xs">Leer Más</p>
             </a>
 </div>
 <!--========== END SWIPER SLIDER ==========-->

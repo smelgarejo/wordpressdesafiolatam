@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 03, 2018 at 06:09 AM
+-- Generation Time: Sep 03, 2018 at 08:07 AM
 -- Server version: 5.6.38
 -- PHP Version: 7.2.1
 
@@ -192,7 +192,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (92, 'show_comments_cookies_opt_in', '0', 'yes'),
 (93, 'initial_db_version', '38590', 'yes'),
 (94, 'wp_user_roles', 'a:5:{s:13:\"administrator\";a:2:{s:4:\"name\";s:13:\"Administrator\";s:12:\"capabilities\";a:61:{s:13:\"switch_themes\";b:1;s:11:\"edit_themes\";b:1;s:16:\"activate_plugins\";b:1;s:12:\"edit_plugins\";b:1;s:10:\"edit_users\";b:1;s:10:\"edit_files\";b:1;s:14:\"manage_options\";b:1;s:17:\"moderate_comments\";b:1;s:17:\"manage_categories\";b:1;s:12:\"manage_links\";b:1;s:12:\"upload_files\";b:1;s:6:\"import\";b:1;s:15:\"unfiltered_html\";b:1;s:10:\"edit_posts\";b:1;s:17:\"edit_others_posts\";b:1;s:20:\"edit_published_posts\";b:1;s:13:\"publish_posts\";b:1;s:10:\"edit_pages\";b:1;s:4:\"read\";b:1;s:8:\"level_10\";b:1;s:7:\"level_9\";b:1;s:7:\"level_8\";b:1;s:7:\"level_7\";b:1;s:7:\"level_6\";b:1;s:7:\"level_5\";b:1;s:7:\"level_4\";b:1;s:7:\"level_3\";b:1;s:7:\"level_2\";b:1;s:7:\"level_1\";b:1;s:7:\"level_0\";b:1;s:17:\"edit_others_pages\";b:1;s:20:\"edit_published_pages\";b:1;s:13:\"publish_pages\";b:1;s:12:\"delete_pages\";b:1;s:19:\"delete_others_pages\";b:1;s:22:\"delete_published_pages\";b:1;s:12:\"delete_posts\";b:1;s:19:\"delete_others_posts\";b:1;s:22:\"delete_published_posts\";b:1;s:20:\"delete_private_posts\";b:1;s:18:\"edit_private_posts\";b:1;s:18:\"read_private_posts\";b:1;s:20:\"delete_private_pages\";b:1;s:18:\"edit_private_pages\";b:1;s:18:\"read_private_pages\";b:1;s:12:\"delete_users\";b:1;s:12:\"create_users\";b:1;s:17:\"unfiltered_upload\";b:1;s:14:\"edit_dashboard\";b:1;s:14:\"update_plugins\";b:1;s:14:\"delete_plugins\";b:1;s:15:\"install_plugins\";b:1;s:13:\"update_themes\";b:1;s:14:\"install_themes\";b:1;s:11:\"update_core\";b:1;s:10:\"list_users\";b:1;s:12:\"remove_users\";b:1;s:13:\"promote_users\";b:1;s:18:\"edit_theme_options\";b:1;s:13:\"delete_themes\";b:1;s:6:\"export\";b:1;}}s:6:\"editor\";a:2:{s:4:\"name\";s:6:\"Editor\";s:12:\"capabilities\";a:34:{s:17:\"moderate_comments\";b:1;s:17:\"manage_categories\";b:1;s:12:\"manage_links\";b:1;s:12:\"upload_files\";b:1;s:15:\"unfiltered_html\";b:1;s:10:\"edit_posts\";b:1;s:17:\"edit_others_posts\";b:1;s:20:\"edit_published_posts\";b:1;s:13:\"publish_posts\";b:1;s:10:\"edit_pages\";b:1;s:4:\"read\";b:1;s:7:\"level_7\";b:1;s:7:\"level_6\";b:1;s:7:\"level_5\";b:1;s:7:\"level_4\";b:1;s:7:\"level_3\";b:1;s:7:\"level_2\";b:1;s:7:\"level_1\";b:1;s:7:\"level_0\";b:1;s:17:\"edit_others_pages\";b:1;s:20:\"edit_published_pages\";b:1;s:13:\"publish_pages\";b:1;s:12:\"delete_pages\";b:1;s:19:\"delete_others_pages\";b:1;s:22:\"delete_published_pages\";b:1;s:12:\"delete_posts\";b:1;s:19:\"delete_others_posts\";b:1;s:22:\"delete_published_posts\";b:1;s:20:\"delete_private_posts\";b:1;s:18:\"edit_private_posts\";b:1;s:18:\"read_private_posts\";b:1;s:20:\"delete_private_pages\";b:1;s:18:\"edit_private_pages\";b:1;s:18:\"read_private_pages\";b:1;}}s:6:\"author\";a:2:{s:4:\"name\";s:6:\"Author\";s:12:\"capabilities\";a:10:{s:12:\"upload_files\";b:1;s:10:\"edit_posts\";b:1;s:20:\"edit_published_posts\";b:1;s:13:\"publish_posts\";b:1;s:4:\"read\";b:1;s:7:\"level_2\";b:1;s:7:\"level_1\";b:1;s:7:\"level_0\";b:1;s:12:\"delete_posts\";b:1;s:22:\"delete_published_posts\";b:1;}}s:11:\"contributor\";a:2:{s:4:\"name\";s:11:\"Contributor\";s:12:\"capabilities\";a:5:{s:10:\"edit_posts\";b:1;s:4:\"read\";b:1;s:7:\"level_1\";b:1;s:7:\"level_0\";b:1;s:12:\"delete_posts\";b:1;}}s:10:\"subscriber\";a:2:{s:4:\"name\";s:10:\"Subscriber\";s:12:\"capabilities\";a:2:{s:4:\"read\";b:1;s:7:\"level_0\";b:1;}}}', 'yes'),
-(95, 'fresh_site', '1', 'yes'),
+(95, 'fresh_site', '0', 'yes'),
 (96, 'WPLANG', 'es_CL', 'yes'),
 (97, 'widget_search', 'a:2:{i:2;a:1:{s:5:\"title\";s:0:\"\";}s:12:\"_multiwidget\";i:1;}', 'yes'),
 (98, 'widget_recent-posts', 'a:2:{i:2;a:2:{s:5:\"title\";s:0:\"\";s:6:\"number\";i:5;}s:12:\"_multiwidget\";i:1;}', 'yes'),
@@ -209,7 +209,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (109, 'widget_tag_cloud', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (110, 'widget_nav_menu', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (111, 'widget_custom_html', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
-(112, 'cron', 'a:4:{i:1535956771;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1535963971;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1536007186;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}', 'yes'),
+(112, 'cron', 'a:4:{i:1535963971;a:4:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1536007186;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1536042338;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}', 'yes'),
 (113, 'theme_mods_twentyseventeen', 'a:2:{s:18:\"custom_css_post_id\";i:-1;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1535920816;s:4:\"data\";a:4:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:6:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";i:3;s:10:\"archives-2\";i:4;s:12:\"categories-2\";i:5;s:6:\"meta-2\";}s:9:\"sidebar-2\";a:0:{}s:9:\"sidebar-3\";a:0:{}}}}', 'yes'),
 (120, '_site_transient_timeout_theme_roots', '1535922606', 'no'),
 (121, '_site_transient_theme_roots', 'a:4:{s:9:\"proboxing\";s:7:\"/themes\";s:13:\"twentyfifteen\";s:7:\"/themes\";s:15:\"twentyseventeen\";s:7:\"/themes\";s:13:\"twentysixteen\";s:7:\"/themes\";}', 'no'),
@@ -217,7 +217,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (125, '_site_transient_update_plugins', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1535920806;s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:2:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:21:\"w.org/plugins/akismet\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:5:\"4.0.8\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:56:\"https://downloads.wordpress.org/plugin/akismet.4.0.8.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";s:2:\"1x\";s:59:\"https://ps.w.org/akismet/assets/icon-128x128.png?rev=969272\";}s:7:\"banners\";a:1:{s:2:\"1x\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";}s:11:\"banners_rtl\";a:0:{}}s:9:\"hello.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:25:\"w.org/plugins/hello-dolly\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:3:\"1.6\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:63:\"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=969907\";s:2:\"1x\";s:63:\"https://ps.w.org/hello-dolly/assets/icon-128x128.jpg?rev=969907\";}s:7:\"banners\";a:1:{s:2:\"1x\";s:65:\"https://ps.w.org/hello-dolly/assets/banner-772x250.png?rev=478342\";}s:11:\"banners_rtl\";a:0:{}}}}', 'no'),
 (126, '_site_transient_timeout_browser_8ed0eac693afdfcb0a59d7145795d2e5', '1536525587', 'no'),
 (127, '_site_transient_browser_8ed0eac693afdfcb0a59d7145795d2e5', 'a:10:{s:4:\"name\";s:6:\"Chrome\";s:7:\"version\";s:13:\"68.0.3440.106\";s:8:\"platform\";s:9:\"Macintosh\";s:10:\"update_url\";s:29:\"https://www.google.com/chrome\";s:7:\"img_src\";s:43:\"http://s.w.org/images/browsers/chrome.png?1\";s:11:\"img_src_ssl\";s:44:\"https://s.w.org/images/browsers/chrome.png?1\";s:15:\"current_version\";s:2:\"18\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;s:6:\"mobile\";b:0;}', 'no'),
-(129, '_site_transient_timeout_community-events-d41d8cd98f00b204e9800998ecf8427e', '1535996454', 'no'),
+(129, '_site_transient_timeout_community-events-d41d8cd98f00b204e9800998ecf8427e', '1536000377', 'no'),
 (130, '_site_transient_community-events-d41d8cd98f00b204e9800998ecf8427e', 'a:2:{s:8:\"location\";a:1:{s:2:\"ip\";b:0;}s:6:\"events\";a:0:{}}', 'no'),
 (131, 'can_compress_scripts', '1', 'no'),
 (132, '_transient_timeout_feed_ac0b00fe65abe10e0c5b588f3ed8c7ca', '1535963991', 'no');
@@ -238,7 +238,8 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (144, 'current_theme', 'Desafío Latam', 'yes'),
 (145, 'theme_mods_proboxing', 'a:3:{i:0;b:0;s:18:\"nav_menu_locations\";a:0:{}s:18:\"custom_css_post_id\";i:-1;}', 'yes'),
 (146, 'theme_switched', '', 'yes'),
-(147, 'page_navigation', 'a:6:{s:10:\"first_text\";s:14:\"&laquo; Inicio\";s:9:\"last_text\";s:11:\"Fin &raquo;\";s:9:\"prev_text\";s:7:\"&laquo;\";s:9:\"next_text\";s:7:\"&raquo;\";s:5:\"style\";s:7:\"default\";s:5:\"align\";s:4:\"left\";}', 'yes');
+(147, 'page_navigation', 'a:6:{s:10:\"first_text\";s:14:\"&laquo; Inicio\";s:9:\"last_text\";s:11:\"Fin &raquo;\";s:9:\"prev_text\";s:7:\"&laquo;\";s:9:\"next_text\";s:7:\"&raquo;\";s:5:\"style\";s:7:\"default\";s:5:\"align\";s:4:\"left\";}', 'yes'),
+(156, 'category_children', 'a:0:{}', 'yes');
 
 -- --------------------------------------------------------
 
@@ -259,7 +260,17 @@ CREATE TABLE `wp_postmeta` (
 
 INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (1, 2, '_wp_page_template', 'default'),
-(2, 3, '_wp_page_template', 'default');
+(2, 3, '_wp_page_template', 'default'),
+(5, 6, '_edit_last', '1'),
+(6, 6, '_edit_lock', '1535956276:1'),
+(7, 9, '_edit_last', '1'),
+(8, 9, '_edit_lock', '1535961770:1'),
+(15, 12, '_wp_attached_file', '2018/09/07.jpg'),
+(16, 12, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:1920;s:6:\"height\";i:1080;s:4:\"file\";s:14:\"2018/09/07.jpg\";s:5:\"sizes\";a:6:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:14:\"07-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:6:\"medium\";a:4:{s:4:\"file\";s:14:\"07-300x169.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:169;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"medium_large\";a:4:{s:4:\"file\";s:14:\"07-768x432.jpg\";s:5:\"width\";i:768;s:6:\"height\";i:432;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:5:\"large\";a:4:{s:4:\"file\";s:15:\"07-1024x576.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:576;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:9:\"slideshow\";a:4:{s:4:\"file\";s:14:\"07-800x600.jpg\";s:5:\"width\";i:800;s:6:\"height\";i:600;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:11:\"custom_logo\";a:4:{s:4:\"file\";s:14:\"07-800x600.jpg\";s:5:\"width\";i:800;s:6:\"height\";i:600;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
+(22, 14, '_edit_last', '1'),
+(23, 14, '_edit_lock', '1535961924:1'),
+(35, 14, '_thumbnail_id', '12'),
+(38, 9, '_thumbnail_id', '12');
 
 -- --------------------------------------------------------
 
@@ -301,7 +312,19 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (1, 1, '2018-09-02 17:39:30', '2018-09-02 20:39:30', 'Bienvenido(a) a WordPress. Esta es tu primera entrada. Edítala o bórrala ¡y comienza a publicar!', '¡Hola mundo!', '', 'publish', 'open', 'open', '', 'hola-mundo', '', '', '2018-09-02 17:39:30', '2018-09-02 20:39:30', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?p=1', 0, 'post', '', 1),
 (2, 1, '2018-09-02 17:39:30', '2018-09-02 20:39:30', 'Esta es una página de ejemplo. Es diferente a un artículo del blog, ya que se quedará fijo y se mostrará en la navegación del sitio (en la mayoría de themes). La mayoría de la gente empieza con una página Acerca de que brinda información a los visitantes. Se podría decir algo como esto:\n\n<blockquote>¡Hola! Durante el día soy un mensajero sobre bicicleta, un aspirante a actor por la noche, y este es mi blog. Vivo en Los Ángeles, tengo un perro grande llamado Jack, y me gustan las piñas coladas. (Y quedar atrapado en la lluvia.)</blockquote>\n\n...o algo como esto:\n\n<blockquote>La compañía XYZ Artilugios, fue fundada en 1971, y ha estado desde entonces proporcionando al público de artilugios de calidad. Está situado en la ciudad de Gotham, XYZ emplea a más de 2.000 personas y hace todo tipo de cosas impresionantes para la comunidad de Gotham.</blockquote>\n\nComo nuevo usuario de WordPress, usted debe ir a <a href=\"http://localhost:8888/wordpressdesafiolatam/wp-admin/\">su Escritorio</a> para eliminar esta página y crear nuevas para su contenido. ¡Que se divierta!', 'Página de ejemplo', '', 'publish', 'closed', 'open', '', 'pagina-de-ejemplo', '', '', '2018-09-02 17:39:30', '2018-09-02 20:39:30', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?page_id=2', 0, 'page', '', 0),
 (3, 1, '2018-09-02 17:39:30', '2018-09-02 20:39:30', '<h2>Quiénes somos</h2><p>Nuestra dirección de sitio web es: http://localhost:8888/wordpressdesafiolatam.</p><h2>Qué datos personales recopilamos y por qué lo recogemos</h2><h3>Comentarios</h3><p>Cuando los visitantes dejan comentarios en el sitio recopilamos los datos mostrados en el formulario de comentarios, y también la dirección IP del visitante y la cadena del agente de usuario del navegador para ayudar a la detección de spam.</p><p>Se puede proporcionar una cadena anonimizada creada a partir de su dirección de correo electrónico (también denominada hash) al servicio gravatar para ver si la está utilizando. La política de privacidad del servicio gravar está disponible aquí: https://automattic.com/privacy/. Después de la aprobación de tu comentario, su imagen de perfil es visible para el público en el contexto de tu comentario.</p><h3>Multimedia</h3><p>Si subes imágenes al sitio web, debes evitar cargar imágenes con datos de ubicación incrustados (EXIF GPS). Los visitantes del sitio web pueden descargar y extraer los datos de la ubicación de las imágenes en el sitio Web.</p><h3>Formularios de Contacto</h3><h3>Cookies</h3><p>Si deja un Comentario en nuestro sitio puedes optar por guardar tu nombre, dirección de correo electrónico y sitio web en cookies. Éstos son para tu conveniencia de modo que no tengas que rellenar tus datos otra vez cuando dejes otro comentario. Estas cookies durarán un año.</p><p>Si tienes una cuenta e inicias sesión en este sitio, configuraremos una cookie temporal para determinar si tu navegador acepta cookies. Esta cookie no contiene datos personales y se descarta al cerrar el navegador.</p><p>Cuando inicies sesión, también configuraremos varias cookies para guardar tu información de inicio de sesión y sus opciones de visualización en pantalla. Las cookies de inicio de sesión duran dos días y las cookies de opciones de pantalla duran un año. Si selecciona &quot;Recordarme&quot; en tu inicio de sesión se mantendrá durante dos semanas. Si cierra la sesión de tu cuenta, se eliminarán las cookies de inicio de sesión.</p><p>Si editas o publicas un artículo, una cookie adicional se guardará en tu navegador. Esta cookie no incluye datos personales y simplemente indica el ID de correo del artículo que acabas de editar. Expira después de 1 día.</p><h3>Contenido incrustado de otros sitios web</h3><p>Los artículos en este sitio pueden incluir contenido incrustado (por ejemplo, videos, imágenes, artículos, etc.). El contenido incrustado de otros sitios web se comporta de la misma manera que si el visitante hubiera visitado el otro sitio web.</p><p>Estos sitios web pueden recopilar datos sobre ti, utilizar cookies, incrustar un seguimiento adicional de terceros y supervisar tu interacción con ese contenido incrustado, incluido el seguimiento de tu interacción con el contenido incrustado si tiene una cuenta y está conectado a dicho sitio web.</p><h3>Analíticas</h3><h2>Con quién compartimos tus datos</h2><h2>Cuánto tiempo conservamos tus datos</h2><p>Si dejas un comentario, el comentario y sus metadatos se conservan indefinidamente. Esto es para que podamos reconocer y aprobar automáticamente cualquier comentario de seguimiento en lugar de mantenerlos en una cola de moderación.</p><p>Para los usuarios que se registren en nuestro sitio web (si los hay), también almacenamos la información personal que proporcionan en su perfil de usuario. Todos los usuarios pueden ver, editar o borrar su información personal en cualquier momento (excepto que no pueden cambiar su nombre de usuario). Los administradores de sitios web también pueden ver y editar esa información.</p><h2>Qué derechos tienen sobre sus datos</h2><p>Si tienes una cuenta en este sitio, o ha dejado comentarios, puedes solicitar recibir un archivo exportado de los datos personales que tengamos sobre usted, incluyendo cualquier dato que nos haya proporcionado. También puede solicitar que borremos cualquier dato personal que mantengamos sobre usted. Esto no incluye los datos que estamos obligados a mantener para fines administrativos, legales o de seguridad.</p><h2>Dónde enviamos tus datos</h2><p>Los comentarios de los visitantes se pueden verificar a través de un servicio automático de detección de spam.</p><h2>Tu información de contacto</h2><h2>Información adicional</h2><h3>Cómo protegemos sus datos</h3><h3>Qué procedimientos de violación de datos tenemos en marcha</h3><h3>De qué terceros recibimos datos</h3><h3>Qué toma de decisiones y/o perfiles automatizados haremos con los datos del usuario</h3><h3>Requisitos de divulgación regulatoria de la industria</h3>', 'Políticas de Privacidad', '', 'draft', 'closed', 'open', '', 'politica-de-privacidad', '', '', '2018-09-02 17:39:30', '2018-09-02 20:39:30', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?page_id=3', 0, 'page', '', 0),
-(4, 1, '2018-09-02 17:39:47', '0000-00-00 00:00:00', '', 'Borrador automático', '', 'auto-draft', 'open', 'open', '', '', '', '', '2018-09-02 17:39:47', '0000-00-00 00:00:00', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?p=4', 0, 'post', '', 0);
+(4, 1, '2018-09-02 17:39:47', '0000-00-00 00:00:00', '', 'Borrador automático', '', 'auto-draft', 'open', 'open', '', '', '', '', '2018-09-02 17:39:47', '0000-00-00 00:00:00', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?p=4', 0, 'post', '', 0),
+(6, 1, '2018-09-03 03:26:12', '2018-09-03 06:26:12', 'prueba prueba', 'prueba titulo', '', 'publish', 'closed', 'closed', '', 'prueba-titulo', '', '', '2018-09-03 03:28:54', '2018-09-03 06:28:54', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?post_type=servicios&#038;p=6', 0, 'servicios', '', 0),
+(7, 1, '2018-09-03 03:31:59', '0000-00-00 00:00:00', '', 'Borrador automático', '', 'auto-draft', 'open', 'open', '', '', '', '', '2018-09-03 03:31:59', '0000-00-00 00:00:00', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?p=7', 0, 'post', '', 0),
+(8, 1, '2018-09-03 03:32:18', '0000-00-00 00:00:00', '', 'Borrador automático', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2018-09-03 03:32:18', '0000-00-00 00:00:00', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?page_id=8', 0, 'page', '', 0),
+(9, 1, '2018-09-03 03:46:48', '2018-09-03 06:46:48', 'prueba', 'The Sweet Science', '', 'publish', 'open', 'open', '', 'slide-1', '', '', '2018-09-03 05:05:11', '2018-09-03 08:05:11', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?p=9', 0, 'post', '', 0),
+(10, 1, '2018-09-03 03:46:48', '2018-09-03 06:46:48', '        <div class=\"g-fullheight--xs g-bg-position--center swiper-slide\" style=\"background: url(\'<?php echo $theme_url ?>/assets/images/1920x1080/02.jpg\');\">\r\n            <div class=\"container g-text-center--xs g-ver-center--xs\">\r\n                <div class=\"g-margin-b-30--xs\">\r\n                    <h1 class=\"g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white\">A Mobile Experien<br>That Inspires Travel</h1>\r\n                </div>\r\n                <a class=\"js__popup__youtube\" href=\"https://www.youtube.com/watch?v=lcFYdgZKZxY\" title=\"Intro Video\">\r\n                            <i class=\"s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play\"></i>\r\n                        </a>\r\n            </div>\r\n        </div>', 'slide 1', '', 'inherit', 'closed', 'closed', '', '9-revision-v1', '', '', '2018-09-03 03:46:48', '2018-09-03 06:46:48', '', 9, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/9-revision-v1/', 0, 'revision', '', 0),
+(11, 1, '2018-09-03 03:47:26', '2018-09-03 06:47:26', '&nbsp;\r\n<div class=\"g-fullheight--xs g-bg-position--center swiper-slide\" style=\"background: url(\'&lt;?php echo $theme_url ?&gt;&lt;p&gt;/assets/images/1920x1080/02.jpg\');\">\r\n<div class=\"container g-text-center--xs g-ver-center--xs\">\r\n<div class=\"g-margin-b-30--xs\">\r\n<h1 class=\"g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white\">A Mobile Experien\r\nThat Inspires Travel</h1>\r\n</div>\r\n<a class=\"js__popup__youtube\" title=\"Intro Video\" href=\"https://www.youtube.com/watch?v=lcFYdgZKZxY\">\r\n<i class=\"s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play\"></i>\r\n</a>\r\n\r\n</div>\r\n</div>', 'slide 1', '', 'inherit', 'closed', 'closed', '', '9-revision-v1', '', '', '2018-09-03 03:47:26', '2018-09-03 06:47:26', '', 9, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/9-revision-v1/', 0, 'revision', '', 0),
+(12, 1, '2018-09-03 03:57:10', '2018-09-03 06:57:10', '', '07', '', 'inherit', 'open', 'closed', '', '07', '', '', '2018-09-03 03:57:10', '2018-09-03 06:57:10', '', 9, 'http://localhost:8888/wordpressdesafiolatam/wp-content/uploads/2018/09/07.jpg', 0, 'attachment', 'image/jpeg', 0),
+(13, 1, '2018-09-03 04:13:52', '2018-09-03 07:13:52', 'prueba', 'slide 1', '', 'inherit', 'closed', 'closed', '', '9-revision-v1', '', '', '2018-09-03 04:13:52', '2018-09-03 07:13:52', '', 9, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/9-revision-v1/', 0, 'revision', '', 0),
+(14, 1, '2018-09-03 04:17:20', '2018-09-03 07:17:20', '', 'The Sweet Science', '', 'publish', 'open', 'open', '', 'slide-2', '', '', '2018-09-03 05:05:23', '2018-09-03 08:05:23', '', 0, 'http://localhost:8888/wordpressdesafiolatam/?p=14', 0, 'post', '', 0),
+(15, 1, '2018-09-03 04:17:20', '2018-09-03 07:17:20', '', 'slide 2', '', 'inherit', 'closed', 'closed', '', '14-revision-v1', '', '', '2018-09-03 04:17:20', '2018-09-03 07:17:20', '', 14, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/14-revision-v1/', 0, 'revision', '', 0),
+(16, 1, '2018-09-03 05:05:11', '2018-09-03 08:05:11', 'prueba', 'The Sweet Science', '', 'inherit', 'closed', 'closed', '', '9-revision-v1', '', '', '2018-09-03 05:05:11', '2018-09-03 08:05:11', '', 9, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/9-revision-v1/', 0, 'revision', '', 0),
+(17, 1, '2018-09-03 05:05:23', '2018-09-03 08:05:23', '', 'The Sweet Science', '', 'inherit', 'closed', 'closed', '', '14-revision-v1', '', '', '2018-09-03 05:05:23', '2018-09-03 08:05:23', '', 14, 'http://localhost:8888/wordpressdesafiolatam/2018/09/03/14-revision-v1/', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
@@ -334,7 +357,9 @@ CREATE TABLE `wp_terms` (
 --
 
 INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
-(1, 'Sin categoría', 'sin-categoria', 0);
+(1, 'Sin categoría', 'sin-categoria', 0),
+(2, 'prueba', 'prueba', 0),
+(3, 'slide', 'slide', 0);
 
 -- --------------------------------------------------------
 
@@ -353,7 +378,10 @@ CREATE TABLE `wp_term_relationships` (
 --
 
 INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_order`) VALUES
-(1, 1, 0);
+(1, 1, 0),
+(6, 2, 0),
+(9, 3, 0),
+(14, 3, 0);
 
 -- --------------------------------------------------------
 
@@ -375,7 +403,9 @@ CREATE TABLE `wp_term_taxonomy` (
 --
 
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
-(1, 1, 'category', '', 0, 1);
+(1, 1, 'category', '', 0, 1),
+(2, 2, 'category', '', 0, 1),
+(3, 3, 'category', '', 0, 2);
 
 -- --------------------------------------------------------
 
@@ -413,7 +443,11 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (16, 1, 'session_tokens', 'a:1:{s:64:\"47a13b14f0ad2bc80d3a855a7fa9e99aa545c90d800eb8f66c05e312f488f14e\";a:4:{s:10:\"expiration\";i:1536093585;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:121:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36\";s:5:\"login\";i:1535920785;}}'),
 (17, 1, 'wp_dashboard_quick_press_last_post_id', '4'),
 (18, 1, 'managenav-menuscolumnshidden', 'a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}'),
-(19, 1, 'metaboxhidden_nav-menus', 'a:2:{i:0;s:23:\"add-post-type-servicios\";i:1;s:12:\"add-post_tag\";}');
+(19, 1, 'metaboxhidden_nav-menus', 'a:2:{i:0;s:23:\"add-post-type-servicios\";i:1;s:12:\"add-post_tag\";}'),
+(20, 1, 'wp_user-settings', 'libraryContent=browse&editor=html'),
+(21, 1, 'wp_user-settings-time', '1535958828'),
+(22, 1, 'closedpostboxes_page', 'a:0:{}'),
+(23, 1, 'metaboxhidden_page', 'a:0:{}');
 
 -- --------------------------------------------------------
 
@@ -570,19 +604,19 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT for table `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=150;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=169;
 
 --
 -- AUTO_INCREMENT for table `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
 
 --
 -- AUTO_INCREMENT for table `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `wp_termmeta`
@@ -594,19 +628,19 @@ ALTER TABLE `wp_termmeta`
 -- AUTO_INCREMENT for table `wp_terms`
 --
 ALTER TABLE `wp_terms`
-  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
-  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
-  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT for table `wp_users`
