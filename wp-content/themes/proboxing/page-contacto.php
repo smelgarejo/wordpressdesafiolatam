@@ -4,7 +4,7 @@
 <div class="g-position--relative g-bg-color--primary">
     <div class="g-container--md g-padding-y-125--xs">
         <div class="g-text-center--xs g-margin-t-50--xs g-margin-b-80--xs">
-            <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs">Contact Us</p>
+            <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs">Nuestra Info</p>
             <h2 class="g-font-size-32--xs g-font-size-36--sm g-color--white">Contacto</h2>
         </div>
         <div class="row g-row-col--5 g-margin-b-80--xs">
@@ -12,21 +12,21 @@
                 <div class="g-text-center--xs">
                     <i class="g-display-block--xs g-font-size-40--xs g-color--white-opacity g-margin-b-30--xs ti-email"></i>
                     <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Email</h4>
-                    <p class="g-color--white-opacity">support@keenthemes.com</p>
+                    <p class="g-color--white-opacity">contacto@proboxing.ck</p>
                 </div>
             </div>
             <div class="col-xs-4 g-full-width--xs g-margin-b-50--xs g-margin-b-0--sm">
                 <div class="g-text-center--xs">
                     <i class="g-display-block--xs g-font-size-40--xs g-color--white-opacity g-margin-b-30--xs ti-map-alt"></i>
-                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Address</h4>
-                    <p class="g-color--white-opacity">277 Bedford Avenue, Brooklyn</p>
+                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Dirección</h4>
+                    <p class="g-color--white-opacity">Av. Pedro de Valdivia 1985, Providencia, Santiago, Región Metropolitana</p>
                 </div>
             </div>
             <div class="col-xs-4 g-full-width--xs">
                 <div class="g-text-center--xs">
                     <i class="g-display-block--xs g-font-size-40--xs g-color--white-opacity g-margin-b-30--xs ti-headphone-alt"></i>
-                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Call at</h4>
-                    <p class="g-color--white-opacity">+ (1) 001 389 3720</p>
+                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Llámanos</h4>
+                    <p class="g-color--white-opacity">+56 9 8891 7443</p>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@
             </div>
         </form>
     </div>
-    <img class="s-mockup-v2" src="<?php echo $theme_url ?>/assets/images/mockups/pencil-01.png" alt="Mockup Image">  
+<?php echo do_shortcode('[contact-form-7 id="24" title="Contact form 1"]'); ?>
 </div>
 <!-- End Feedback Form -->
 <!--========== END PAGE CONTENT ==========-->
