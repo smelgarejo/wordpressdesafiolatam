@@ -3,7 +3,7 @@
 jQuery(document).ready(function($){
   //set your google maps parameters
   var latitude = -33.4409294,
-      longitude = -33.4409294,
+      longitude = -70.6070253,
       map_zoom = 6;
 
   //google map custom marker icon - .png fallback for IE11
@@ -205,7 +205,7 @@ jQuery(document).ready(function($){
   var contentString = '<div id="content">'+
     '<div id="siteNotice">'+
     '</div>'+
-    '<h2 id="firstHeading" class="firstHeading">Providencia, Santiago</h2>'+
+    '<h2 id="firstHeading" class="firstHeading">Providencia, Santiago, Región Metropolitana</h2>'+
     '<div id="bodyContent">'+
     '<p>277 Bedford Avenue, <br> Av. Pedro de Valdivia 1985, <br> Providencia, Santiago, Región Metropolitana</p>'+
     '</div>'+

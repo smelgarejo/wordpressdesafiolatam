@@ -82,18 +82,7 @@ $theme_url = get_template_directory_uri();
             <nav class="s-header__nav js__scrollbar">
                 <div class="container-fluid">
                     <!-- Menu List -->
-                    <ul class="list-unstyled s-header__nav-menu">
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="index.html">Corporate</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_app_landing.html">App Landing</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_portfolio.html">Portfolio</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_events.html">Events</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_lawyer.html">Lawyer</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_clinic.html">Clinic</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_coming_soon.html">Coming Soon</a></li>
-                    </ul>
-                    <!-- End Menu List -->
-
-                    <!-- Menu List -->
+                    <!--
                     <ul class="list-unstyled s-header__nav-menu">
                         <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="about.html">About</a></li>
                         <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="team.html">Team</a></li>
@@ -102,6 +91,14 @@ $theme_url = get_template_directory_uri();
                         <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="faq.html">FAQ</a></li>
                         <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="contacts.html">Contacts</a></li>
                     </ul>
+                    -->
+                    <?php 
+                        wp_nav_menu( array(
+                            'theme_location' => 'menu-principal',
+                            'container' => false,
+                            'items_wrap' => '<ul class="list-unstyled s-header__nav-menu">%3$s</ul>',
+                        ) );
+                    ?>
                     <!-- End Menu List -->
                 </div>
             </nav>
