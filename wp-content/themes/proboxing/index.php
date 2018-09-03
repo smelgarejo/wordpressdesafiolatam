@@ -148,17 +148,18 @@ get_header() ?>
     <div class="container g-padding-y-80--xs g-padding-y-125--sm">
         <div class="row">
             <div class="col-md-4 g-margin-t-15--xs g-margin-b-60--xs g-margin-b-0--lg">
-                <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Culture</p>
+                <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Proboxing</p>
                 <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
-                    <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md">About</h2>
+                    <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md">Nuestra</h2>
                 </div>
                 <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                    <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md">Megakit</h2>
+                    <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md">Empresa</h2>
                 </div>
             </div>
             <div class="col-md-4 col-md-offset-1">
-                <p class="g-font-size-18--xs">We aim high at being focused on building relationships with our clients and community. Using our creative gifts drives this foundation. The time has come to bring those ideas and plans to life. This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
-                <p class="g-font-size-18--xs">Now that your brand is all dressed up and ready to party, it's time to release it to the world. By the way, let's celebrate already.</p>
+                <p class="g-font-size-18--xs">Somos una empresa importadora y fabricante de productos para deportes de contacto, de alta gamma y calidad, que ofrece productos que se enfocan principalmente en el cuidado del deportista, ya que una lesión en estos deportes significa un paro considerable en el entrenamiento.</p>
+                <p class="g-font-size-18--xs">Nuestro principal objetivo es el cuidado del deportista, evitar lesiones y que el equipamiento cumpla con todas sus necesidades.
+</p>
             </div>
         </div>
     </div>
@@ -192,14 +193,14 @@ get_header() ?>
 <!-- Portfolio Filter -->
 <div class="container g-padding-y-80--xs">
     <div class="g-text-center--xs g-margin-b-40--xs">
-        <h2 class="g-font-size-32--xs g-font-size-36--md">Projects</h2>
+        <h2 class="g-font-size-32--xs g-font-size-36--md">Productos</h2>
     </div>
     <div class="s-portfolio">
         <div id="js__filters-portfolio-gallery" class="s-portfolio__filter-v1 cbp-l-filters-text cbp-l-filters-center">
-            <div data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item cbp-filter-item-active">Show All</div>
-            <div data-filter=".graphic" class="s-portfolio__filter-v1-item cbp-filter-item">Graphic</div>
-            <div data-filter=".logos" class="s-portfolio__filter-v1-item cbp-filter-item">Logo</div>
-            <div data-filter=".motion" class="s-portfolio__filter-v1-item cbp-filter-item">Motion</div>
+            <div data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item cbp-filter-item-active">Todos</div>
+            <div data-filter=".graphic" class="s-portfolio__filter-v1-item cbp-filter-item">Guantes Básicos</div>
+            <div data-filter=".logos" class="s-portfolio__filter-v1-item cbp-filter-item">Guantes Semi Pro</div>
+            <div data-filter=".motion" class="s-portfolio__filter-v1-item cbp-filter-item">Vendas</div>
         </div>
     </div>
 </div>
@@ -404,44 +405,6 @@ get_header() ?>
     </div>
 </div>
 <!-- End Testimonials -->
-
-<!-- Clients -->
-<div class="g-bg-color--sky-light">
-    <div class="g-container--md g-padding-y-80--xs g-padding-y-125--sm">
-        <!-- Swiper Clients -->
-        <div class="s-swiper js__swiper-clients">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="s-clients-v1" src="<?php echo $theme_url ?>/assets/images/clients/01-dark.png" alt="Clients Logo">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".2s">
-                        <img class="s-clients-v1" src="<?php echo $theme_url ?>/assets/images/clients/02-dark.png" alt="Clients Logo">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".3s">
-                        <img class="s-clients-v1" src="<?php echo $theme_url ?>/assets/images/clients/03-dark.png" alt="Clients Logo">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".4s">
-                        <img class="s-clients-v1" src="<?php echo $theme_url ?>/assets/images/clients/04-dark.png" alt="Clients Logo">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".5s">
-                        <img class="s-clients-v1" src="<?php echo $theme_url ?>/assets/images/clients/05-dark.png" alt="Clients Logo">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Swiper Clients -->
-    </div>
-</div>
-<!-- End Clients -->
 
 <!-- News -->
 <div class="container g-padding-y-80--xs g-padding-y-125--sm">
