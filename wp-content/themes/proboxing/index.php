@@ -101,12 +101,12 @@ get_header() ?>
             </div>
             <div class="s-portfolio__caption-hover--cc">
                 <div class="g-margin-b-25--xs">
-                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                    <p class="g-color--white-opacity">by KeenThemes Inc.</p>
+                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Producto</h4>
+                    <p class="g-color--white-opacity">Proboxing</p>
                 </div>
                 <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                     <li>
-                        <a href="<?php echo $theme_url ?>/assets/images/970x647/05.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
+                        <a href="<?php echo $theme_url ?>/assets/images/970x647/05.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Producto <br/> Proboxing">
                                     <i class="ti-fullscreen"></i>
                                 </a>
                     </li>
@@ -125,12 +125,12 @@ get_header() ?>
             </div>
             <div class="s-portfolio__caption-hover--cc">
                 <div class="g-margin-b-25--xs">
-                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                    <p class="g-color--white-opacity">by KeenThemes Inc.</p>
+                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Producto</h4>
+                    <p class="g-color--white-opacity">Proboxing</p>
                 </div>
                 <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                     <li>
-                        <a href="<?php echo $theme_url ?>/assets/images/970x647/06.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
+                        <a href="<?php echo $theme_url ?>/assets/images/970x647/06.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Producto <br/> Proboxing">
                                     <i class="ti-fullscreen"></i>
                                 </a>
                     </li>
@@ -149,12 +149,12 @@ get_header() ?>
             </div>
             <div class="s-portfolio__caption-hover--cc">
                 <div class="g-margin-b-25--xs">
-                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                    <p class="g-color--white-opacity">by KeenThemes Inc.</p>
+                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Producto</h4>
+                    <p class="g-color--white-opacity">Proboxing</p>
                 </div>
                 <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                     <li>
-                        <a href="<?php echo $theme_url ?>/assets/images/970x647/07.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
+                        <a href="<?php echo $theme_url ?>/assets/images/970x647/07.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Producto <br/> Proboxing">
                                     <i class="ti-fullscreen"></i>
                                 </a>
                     </li>
@@ -173,12 +173,12 @@ get_header() ?>
             </div>
             <div class="s-portfolio__caption-hover--cc">
                 <div class="g-margin-b-25--xs">
-                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                    <p class="g-color--white-opacity">by KeenThemes Inc.</p>
+                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Producto</h4>
+                    <p class="g-color--white-opacity">Proboxing</p>
                 </div>
                 <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                     <li>
-                        <a href="<?php echo $theme_url ?>/assets/images/970x647/08.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
+                        <a href="<?php echo $theme_url ?>/assets/images/970x647/08.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Producto <br/> Proboxing">
                                     <i class="ti-fullscreen"></i>
                                 </a>
                     </li>
@@ -197,12 +197,12 @@ get_header() ?>
             </div>
             <div class="s-portfolio__caption-hover--cc">
                 <div class="g-margin-b-25--xs">
-                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                    <p class="g-color--white-opacity">by KeenThemes Inc.</p>
+                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Producto</h4>
+                    <p class="g-color--white-opacity">Proboxing</p>
                 </div>
                 <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                     <li>
-                        <a href="<?php echo $theme_url ?>/assets/images/970x647/09.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
+                        <a href="<?php echo $theme_url ?>/assets/images/970x647/09.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Producto <br/> Proboxing">
                                     <i class="ti-fullscreen"></i>
                                 </a>
                     </li>
@@ -222,11 +222,11 @@ get_header() ?>
             <div class="s-portfolio__caption-hover--cc">
                 <div class="g-margin-b-25--xs">
                     <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                    <p class="g-color--white-opacity">by KeenThemes Inc.</p>
+                    <p class="g-color--white-opacity">Proboxing</p>
                 </div>
                 <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                     <li>
-                        <a href="<?php echo $theme_url ?>/assets/images/970x647/04.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
+                        <a href="<?php echo $theme_url ?>/assets/images/970x647/04.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> Proboxing">
                                     <i class="ti-fullscreen"></i>
                                 </a>
                     </li>
@@ -257,8 +257,8 @@ get_header() ?>
                 <img class="img-responsive" src="<?php echo $theme_url ?>/assets/images/970x970/01.jpg" alt="Image">
                 <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-40--xs g-padding-y-40--xs">
                     <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2">Promociones</p>
-                    <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="http://keenthemes.com/">Ap</a></h3>
-                    <p>The time has come to bring those ideas and plans to life.</p>
+                    <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="http://keenthemes.com/"></a>Lista de precios.</h3>
+                    <p></p>
                 </div>
             </article>
             <!-- End News -->
@@ -268,9 +268,9 @@ get_header() ?>
             <article>
                 <img class="img-responsive" src="<?php echo $theme_url ?>/assets/images/970x970/02.jpg" alt="Image">
                 <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-40--xs g-padding-y-40--xs">
-                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2">News</p>
-                    <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="http://keenthemes.com/">Jacks of All. Experts in All.</a></h3>
-                    <p>The time has come to bring those ideas and plans to life.</p>
+                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2">Promociones</p>
+                    <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="http://keenthemes.com/">Promociòn por Lanzamiento</a></h3>
+                    <p></p>
                 </div>
             </article>
             <!-- End News -->
@@ -280,9 +280,9 @@ get_header() ?>
             <article>
                 <img class="img-responsive" src="<?php echo $theme_url ?>/assets/images/970x970/03.jpg" alt="Image">
                 <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-40--xs g-padding-y-40--xs">
-                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2">News</p>
-                    <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="http://keenthemes.com/">Finding your Perfect Place.</a></h3>
-                    <p>The time has come to bring those ideas and plans to life.</p>
+                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2">Promociones</p>
+                    <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="http://keenthemes.com/">Promociòn por Lanzamiento</a></h3>
+                    <p></p>
                 </div>
             </article>
             <!-- End News -->
@@ -292,7 +292,7 @@ get_header() ?>
 <!-- End News -->
 
 <!-- Feedback Form -->
-<div class="g-bg-color--sky-light">
+<!-- <div class="g-bg-color--sky-light">
     <div class="container g-padding-y-80--xs g-padding-y-125--sm">
         <div class="g-text-center--xs g-margin-b-80--xs">
             <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Feedback</p>
@@ -318,7 +318,7 @@ get_header() ?>
             </div>
         </form>
     </div>
-</div>
+</div> -->
 <!-- End Feedback Form -->
 
 <!-- Google Map -->
